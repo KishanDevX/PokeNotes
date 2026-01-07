@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
     <header class="fileHead">
@@ -26,7 +27,9 @@
       </div>
 
       <div class="display">
-        <div id="rawDisplay">This is RAW content</div>
+        <div id="rawDisplay">
+          <textarea id="fileInput" placeholder="write in file.."></textarea>
+        </div>
         <div id="parsedDisplay" hidden>This is PARSED content</div>
       </div>
     </main>
