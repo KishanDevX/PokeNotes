@@ -1,0 +1,58 @@
+@import url("../global.css");
+
+.fileHead {
+  background-color: var(--bg-700);
+  display: flex;
+  span {
+    font-size: var(--text-lg);
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: var(--text-900);
+  }
+}
+
+.fileIcon {
+  width: 20%;
+  span {
+    justify-content: center;
+  }
+}
+
+.headTitle {
+  width: 80%;
+  overflow-x: auto;
+  white-space: nowrap;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.controls {
+  background-color: var(--btn-600);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#rawBtn,
+#parsedBtn {
+  width: 50%;
+  text-align: center;
+  font-size: var(--text-sm);
+  padding: 0.5rem 0;
+}
+
+button.active {
+  background: var(--btn-700);
+  color: var(--text-900);
+  border: 1px solid var(--text-900);
+}
+
+.display {
+  padding: 2rem;
+}
+
+#rawDisplay,
+#parsedDisplay {
+  font-size: var(--text-sm);
+}

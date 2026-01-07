@@ -47,6 +47,10 @@ header {
   height: 10vh;
 }
 
+button {
+  all: unset;
+}
+
 main {
   height: 90vh;
 }

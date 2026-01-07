@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/fileView.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="fileHead">
+      <div class="fileIcon">
+        <span class="material-symbols-outlined"> description </span>
+      </div>
+      <div class="headTitle">
+        <span class="fileTitle">File Name</span>
+      </div>
+    </header>
+    <main class="fileMain">
+      <div class="controls">
+        <button id="rawBtn" class="active">Raw</button>
+        <button id="parsedBtn">Parsed</button>
+      </div>
+
+      <div class="display">
+        <div id="rawDisplay">This is RAW content</div>
+        <div id="parsedDisplay" hidden>This is PARSED content</div>
+      </div>
+    </main>
+    <script src="../javascripts/fileView.js" type="module"></script>
+  </body>
+</html>

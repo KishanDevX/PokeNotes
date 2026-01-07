@@ -41,9 +41,10 @@
 
 .folder {
   all: unset;
+  text-transform: capitalize;
   padding: 1rem 2rem;
   margin: 0 2rem;
-  font-size: var(--text-lg);
+  font-size: var(--text-md);
   background-color: var(--card-800);
   border-radius: 1rem;
 }

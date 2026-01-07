@@ -1,0 +1,51 @@
+@import url("../global.css");
+
+.folderHead {
+  background-color: var(--bg-700);
+  display: flex;
+  span {
+    font-size: var(--text-lg);
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: var(--text-900);
+  }
+}
+
+.folderIcon {
+  width: 20%;
+  span {
+    justify-content: center;
+  }
+}
+
+.headTitle {
+  width: 80%;
+  overflow-x: auto;
+  white-space: nowrap;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.folderMain {
+  background-color: var(--bg-900);
+}
+
+.allFiles {
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+  flex-direction: column;
+  padding: 2rem 0;
+  overflow-y: auto;
+}
+
+.file {
+  all: unset;
+  text-transform: capitalize;
+  padding: 1rem;
+  border-bottom: 1px solid var(--text-700);
+  margin: 0 2rem;
+  font-size: var(--text-md);
+  background-color: var(--card-800);
+}
