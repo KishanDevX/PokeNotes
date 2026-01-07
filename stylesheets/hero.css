@@ -1,0 +1,49 @@
+@import url("../global.css");
+
+.heroHead {
+  display: flex;
+  span {
+    font-size: var(--text-lg);
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: var(--text-900);
+  }
+}
+
+.userIcon {
+  width: 20%;
+  span {
+    justify-content: center;
+  }
+}
+
+.headTitle {
+  width: 80%;
+  overflow-x: auto;
+  white-space: nowrap;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.heroMain {
+  background-color: var(--bg-700);
+}
+
+.allFolders {
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+  flex-direction: column;
+  padding: 2rem 0;
+  overflow-y: auto;
+}
+
+.folder {
+  all: unset;
+  padding: 1rem 2rem;
+  margin: 0 2rem;
+  font-size: var(--text-lg);
+  background-color: var(--card-800);
+  border-radius: 1rem;
+}

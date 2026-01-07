@@ -1,0 +1,78 @@
+:root {
+  /* ---------- HEADER COLORS ---------- */
+  --header-900: #0b132b;
+  --header-800: #1c2541;
+  --header-700: #2a3a5f;
+
+  /* ---------- BACKGROUND COLORS ---------- */
+  --bg-900: #060b1a;
+  --bg-800: #0e1629;
+  --bg-700: #182038;
+
+  /* ---------- CARD BACKGROUND ---------- */
+  --card-800: #121b33;
+  --card-700: #1a2442;
+
+  /* ---------- BUTTON BACKGROUND ---------- */
+  --btn-700: #243b6b;
+  --btn-600: #2f4a85;
+
+  /* ---------- TEXT COLORS ---------- */
+  --text-900: #e1e6f0;
+  --text-700: #a3b1c2;
+  --text-500: #6b7c8e;
+
+  /* ---------- TEXT SIZES ------------*/
+  --text-xl: 5rem;
+  --text-lg: 4rem;
+  --text-md: 3rem;
+  --text-sm: 2rem;
+  --text-xs: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background-color: var(--bg-900);
+  color: var(--text-900);
+}
+
+header {
+  height: 10vh;
+}
+
+main {
+  height: 90vh;
+}
+
+.notFoundMsg {
+  font-size: var(--text-sm);
+  color: var(--text-500);
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.createBtn {
+  all: unset;
+  background-color: var(--card-800);
+  padding: 1rem;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  position: fixed;
+  bottom: 2vh;
+  right: 2vh;
+  color: var(--text-900);
+  border: 1px solid var(--text-900);
+  span {
+    font-size: var(--text-sm);
+  }
+}
